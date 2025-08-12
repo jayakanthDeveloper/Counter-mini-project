@@ -18,4 +18,4 @@ This is my first **JavaScript mini project** — a cart button that increases an
 ## 📂 How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/cart-button.git
+   git clone https://github.com/jayakanthDeveloper/Counter-mini-project.git
