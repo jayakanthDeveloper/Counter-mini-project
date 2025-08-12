@@ -13,7 +13,7 @@ This is my first **JavaScript mini project** — a cart button that increases an
 - JavaScript  
 
 ## 📷 Screenshot
-![Cart Button Screenshot](./cart-button.png)
+![Cart Button Screenshot](./image.png)
 
 ## 📂 How to Run
 1. Clone this repository:
