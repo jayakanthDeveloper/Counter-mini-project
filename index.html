@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+
+        body{
+            height: 100vh;
+            /* background-color: black; */
+        }
+
+        .cart-button{
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            margin: 250px auto;
+            width: 350px;
+            background-color: rgb(14, 180, 180);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 30px black;
+        }
+
+        .button{
+            font-size: 60px;
+            background: none;
+            border: none;
+            font-weight: bold;
+        }
+        .container{
+            font-size: 60px;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="cart-button">
+        <button class="button" onclick="decrease()">&#8722;</button>
+        <div class="container" id="container">ADD</div>
+        <button class="button" onclick="increase()">+</button>
+    </div>
+</body>
+<script>
+    let count = 0;
+
+    function increase(){
+        count++;
+        document.getElementById("container").innerHTML= count;
+    }
+
+
+    function decrease(){
+        if(count>1){
+            count--;
+            document.getElementById("container").innerHTML= count;
+        }
+    }
+   
+</script>
+</html>
